@@ -63,10 +63,10 @@ export function MensajeriaScreen() {
   return (
     <Layout.Basic>
       <Text style={styles.titulo}>Mensajería</Text>
-          <Button mode="contained" onPress={() => navigation.navigate(screensName.homeplan.plansupervisionCrear)} style={styles.btn}>
+          <Button mode="contained" onPress={() => navigation.navigate(screensName.agend.mensajeriaVerEnviados)} style={styles.btn}>
               Enviados
           </Button>
-          <Button mode="contained" onPress={() => navigation.navigate(screensName.homeplan.plansupervisionCrear)} style={styles.btn}>
+          <Button mode="contained" onPress={() => navigation.navigate(screensName.agend.mensajeriaVerRecibidos)} style={styles.btn}>
               Recibidos
           </Button>
           <TextInput
