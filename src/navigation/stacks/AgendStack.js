@@ -2,6 +2,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { DocumentacionScreen, DocumentacionVerScreen } from "../../screens/Documentacion";
 import { AgendarScreen, AgendarCrearScreen } from "../../screens/Agendar";
 import { VerAgendaScreen } from "../../screens/Veragenda"
+import { MensajeriaScreen } from "../../screens/Mensajeria"
 import { screensName } from "../../utils";
 
 const Stack = createNativeStackNavigator();
@@ -14,6 +15,9 @@ export function AgendStack() {
       <Stack.Screen name={screensName.agend.agendar} component={AgendarScreen} />
       <Stack.Screen name={screensName.agend.agendarCrear} component={AgendarCrearScreen} />
       <Stack.Screen name={screensName.agend.veragenda} component={VerAgendaScreen} />
+      <Stack.Screen name={screensName.agend.mensajeria} component={MensajeriaScreen} />
+      <Stack.Screen name={screensName.agend.mensajeriaVerEnviados} component={AgendarScreen} />
+      <Stack.Screen name={screensName.agend.mensajeriaVerRecibidos} component={AgendarScreen} />
     </Stack.Navigator>
   );
 }

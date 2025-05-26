@@ -81,6 +81,9 @@ const home = {
     agendar: "agendar",
     agendarCrear: "agendar-crear",
     veragenda: "veragenda",
+    mensajeria: "mensajeria",
+    mensajeriaVerEnviados: "mensajeriaver-enviados",
+    mensajeriaVerRecibidos: "mensajeriaver-recibidos"
   };
   
   export const screensName = {

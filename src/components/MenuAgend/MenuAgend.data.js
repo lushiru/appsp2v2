@@ -12,5 +12,9 @@ export const Menu = [
   {
     title: "Ver Agenda",
     screen: screensName.agend.veragenda,
-  },  
+  },
+  {
+    title: "Mensajeria",
+    screen: screensName.agend.mensajeria,
+  },    
 ];

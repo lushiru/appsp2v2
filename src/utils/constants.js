@@ -31,7 +31,7 @@ export const ENV = {
       NOTIFICAR : "notificar",
       AGENDAR : "agendar",
       VERAGENDA : "veragenda",
-      
+      MENSAJERIA : "mensajeria",
       
     },
     IMPRIMIR:"https://spanel.cl/spanel/api/imprimir/",
