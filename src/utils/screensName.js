@@ -83,7 +83,8 @@ const home = {
     veragenda: "veragenda",
     mensajeria: "mensajeria",
     mensajeriaVerEnviados: "mensajeriaver-enviados",
-    mensajeriaVerRecibidos: "mensajeriaver-recibidos"
+    mensajeriaVerRecibidos: "mensajeriaver-recibidos",
+    novedades: "novedades",
   };
   
   export const screensName = {

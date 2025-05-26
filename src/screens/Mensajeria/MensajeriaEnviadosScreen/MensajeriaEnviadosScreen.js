@@ -1,7 +1,7 @@
 import { View, Text } from 'react-native'
 import { useState, useEffect} from 'react'
 import { Layout } from '../../../layouts'
-import { mensajeriaCtrl } from '../../../api/mensajeria'
+import { mensajeriaCtrl } from '../../../api'
 import { styles } from "./MensajeriaEnviadosScreen.styles"
 
 export function MensajeriaEnviadosScreen() {

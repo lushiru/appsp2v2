@@ -5,7 +5,7 @@ import DropDownPicker from "react-native-dropdown-picker";
 import { Layout } from '../../../layouts'
 import { screensName } from "../../../utils";
 import { useNavigation } from "@react-navigation/native";
-import { mensajeriaCtrl } from '../../../api/mensajeria';
+import { mensajeriaCtrl } from '../../../api';
 import { styles } from './MensajeriaScreen.styles';
 
 

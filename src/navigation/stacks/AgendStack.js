@@ -3,6 +3,7 @@ import { DocumentacionScreen, DocumentacionVerScreen } from "../../screens/Docum
 import { AgendarScreen, AgendarCrearScreen } from "../../screens/Agendar";
 import { VerAgendaScreen } from "../../screens/Veragenda"
 import { MensajeriaScreen, MensajeriaEnviadosScreen, MensajeriaRecibidosScreen } from "../../screens/Mensajeria"
+import { NovedadesScreen } from "../../screens/Novedades"
 import { screensName } from "../../utils";
 
 const Stack = createNativeStackNavigator();
@@ -18,6 +19,7 @@ export function AgendStack() {
       <Stack.Screen name={screensName.agend.mensajeria} component={MensajeriaScreen} />
       <Stack.Screen name={screensName.agend.mensajeriaVerEnviados} component={MensajeriaEnviadosScreen} />
       <Stack.Screen name={screensName.agend.mensajeriaVerRecibidos} component={MensajeriaRecibidosScreen} />
+      <Stack.Screen name={screensName.agend.novedades} component={NovedadesScreen} />
     </Stack.Navigator>
   );
 }

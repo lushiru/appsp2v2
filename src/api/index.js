@@ -24,3 +24,5 @@ export * from "./capacitacionregistro";
 export * from "./capacitacionseguimiento";
 export * from "./notificar";
 export * from "./agendar";
+export * from "./mensajeria";
+export * from "./novedades";
