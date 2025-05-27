@@ -16,7 +16,7 @@ export function Menu() {
         },
         {
           text: "SI",
-          onPress: logout,
+          onPress: () => {logout();},
         },
       ],
       { cancelable: false }
