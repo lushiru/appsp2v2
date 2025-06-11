@@ -10,3 +10,5 @@ export * from "./CheckListItemContenidoEditarScreen";
 export * from "./CheckListAplicarScreen";
 export * from "./CheckListFechasScreen";
 export * from "./CheckListMostrarScreen";
+export * from "./CheckListTomarFotoScreen";
+export * from "./CheckListVerFotosScreen";

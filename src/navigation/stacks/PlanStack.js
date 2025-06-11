@@ -4,7 +4,8 @@ import { VerdesempenoScreen } from "../../screens/Verdesempeno";
 import { ChecklistScreen, CheckListCrearScreen, CheckListEditarScreen,
   CheckListItemScreen, CheckListItemCrearScreen, CheckListItemEditarScreen,
   CheckListItemContenidoScreen, CheckListItemContenidoCrearScreen, CheckListItemContenidoEditarScreen,
-  CheckListAplicarScreen, CheckListFechasScreen, CheckListMostrarScreen 
+  CheckListAplicarScreen, CheckListFechasScreen, CheckListMostrarScreen,
+  CheckListTomarFotoScreen, CheckListVerFotosScreen 
  } from "../../screens/Checklist";
 import { MejorasScreen, MejorasCrearScreen, MejorasEditarScreen, 
   MejorasTomarFotoScreen, MejorasVerFotosScreen, MejorasPlanCrearScreen, MejorasPlanSeguimientoScreen, MejorasPlanEditarScreen
@@ -31,6 +32,8 @@ export function PlanStack() {
       <Stack.Screen name={screensName.homeplan.checklist} component={ChecklistScreen} />
       <Stack.Screen name={screensName.homeplan.checklistCrear} component={CheckListCrearScreen} />
       <Stack.Screen name={screensName.homeplan.checklistEditar} component={CheckListEditarScreen} />
+      <Stack.Screen name={screensName.homeplan.checklistTomarfoto} component={CheckListTomarFotoScreen} />
+      <Stack.Screen name={screensName.homeplan.checklistVerFotos} component={CheckListVerFotosScreen} />
       <Stack.Screen name={screensName.homeplan.checklistitem} component={CheckListItemScreen} />
       <Stack.Screen name={screensName.homeplan.checklistitemCrear} component={CheckListItemCrearScreen} />
       <Stack.Screen name={screensName.homeplan.checklistitemEditar} component={CheckListItemEditarScreen} />

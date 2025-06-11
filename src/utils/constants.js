@@ -15,6 +15,7 @@ export const ENV = {
       PLANESSUPERVISION: "plansupervision",
       VERDESEMPENOVER: "verdesempenovergral",
       CHECKLIST : "checklist",
+      CHECKLISTFOTOS : "checklistfotos",
       CKECKLISTITEM : "checklistitem",
       CKECKLISTITEMCONTENIDO : "checklistitemcontenido",
       CKECKLISTAPLICAR : "checklistaplicar",

@@ -33,6 +33,8 @@ const home = {
     checklist: "checklist",
     checklistCrear: "checklist-crear",
     checklistEditar: "checklist-editar",
+    checklistTomarfoto: "checklist-tomarfoto",
+    checklistVerFotos: "checklist-verfotos",
     checklistitem: "checklistitem",
     checklistitemCrear: "checklistitem-crear",
     checklistitemEditar: "checklistitem-editar",

@@ -10,6 +10,7 @@ export * from "./desempenoporcentaje";
 export * from "./desempenoregistrar";
 export * from "./plansupervision";
 export * from "./checklist";
+export * from "./checklistfoto";
 export * from "./checklistitem";
 export * from "./checklistitemcontenido";
 export * from "./checklistaplicar";

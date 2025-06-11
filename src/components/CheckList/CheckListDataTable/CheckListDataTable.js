@@ -68,6 +68,14 @@ export function CheckListDataTable(props) {
       }      
     };
 
+    const goToTomarFotos = (id, nombre) => {
+          navigation.navigate(screensName.homeplan.checklistTomarfoto, { id: id, nombre:nombre });
+      };
+
+    const goToVerFotos = (id, nombre) => {
+          navigation.navigate(screensName.homeplan.checklistVerFotos, { id: id, nombre: nombre });
+      };
+
     let nro=1;
 
   return (
@@ -82,6 +90,8 @@ export function CheckListDataTable(props) {
                 <DataTable.Title style={{ width: 100 }}>Imprimir</DataTable.Title>
                 <DataTable.Title style={{ width: 100 }}>Editar</DataTable.Title>
                 <DataTable.Title style={{ width: 100 }}>Eliminar</DataTable.Title>
+                <DataTable.Title style={{ width: 100 }}>Tomar Fotos</DataTable.Title>
+                <DataTable.Title style={{ width: 100 }}>Ver Fotos</DataTable.Title>
                 <DataTable.Title style={{ width: 100 }}>Ver Item</DataTable.Title>
                 <DataTable.Title style={{ width: 100 }}>Aplicar</DataTable.Title>
             </DataTable.Header>
@@ -95,6 +105,8 @@ export function CheckListDataTable(props) {
                 <DataTable.Cell style={{ width: 100 }}><Button mode="contained" onPress={() => goToImprimir(item.id,item.nombre)} style={styles.btnEdit}>Imprimir</Button></DataTable.Cell>
                 <DataTable.Cell style={{ width: 100 }}><Button mode="contained" onPress={() => goToEditar(item.id)} style={styles.btnEdit}>Editar</Button></DataTable.Cell>
                 <DataTable.Cell style={{ width: 100 }}><Button mode="contained" onPress={() => goToEliminar(item.id,item.nombre)} style={styles.btnEdit}>Eliminar</Button></DataTable.Cell>
+                <DataTable.Cell style={{ width: 100 }}><Button mode="contained" onPress={() => goToTomarFotos(item.id,item.nombre)} style={styles.btnEdit}>Tomar Fotos</Button></DataTable.Cell>
+                <DataTable.Cell style={{ width: 100 }}><Button mode="contained" onPress={() => goToVerFotos(item.id,item.nombre)} style={styles.btnEdit}>Ver Fotos</Button></DataTable.Cell>
                 <DataTable.Cell style={{ width: 100 }}><Button mode="contained" onPress={() => goToVerItem(item.id,item.nombre)} style={styles.btnEdit}>Ver Item</Button></DataTable.Cell>
                 <DataTable.Cell style={{ width: 100 }}><Button mode="contained" onPress={() => goToAplicar(item.id,item.nombre,item.tipo)} style={styles.btnEdit}>Aplicar</Button></DataTable.Cell>
                 </DataTable.Row>
